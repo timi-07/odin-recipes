@@ -3,15 +3,41 @@
     <head>
        <meta charset="UTF-8">
        <title>Good Eats</title> 
+       <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-            <li><a href="./recipes/lasagna.html" target="_blank" rel="noopener"> Lasagna Recipe</a></li>
-            <li><a href="./recipes/sushi.html" target="_blank" rel="noopener"> Sushi Recipe</a></li>
-            <li><a href="./recipes/steak.html" target="_blank" rel="noopener"> Steak Recipe</a></li>
-        </ul>
+        <header>
+            <img id="nav-logo" src="./images/logo.png">
+            <nav>
+            
+                <a class="nav-dropdown" href="./pages/Breakfast">Beakfast</a>
+                <a class="nav-dropdown" href="./pages/Lunch">Lunch</a>
+                <a class="nav-dropdown" href="./pages/Dinner">Dinner</a>
+                <a class="nav-dropdown" href="./pages/Snacks">Snacks</a>
+            </nav>
+            <hr />
+        </header>
+        <section class="popular-today">
+            <h1 >popular today</h1>
+
+            <pop-op id="pop1">
+                <img class="pop-op-img" src="./images/lasagna.jpg">
+                <a href="./pages/recipes/lasagna.html" target="_blank" rel="noopener"> Lasagna Recipe</a>
+            </pop-op>
+
+            <pop-op id="pop2">
+                <img class="pop-op-img" src="./images/sushi.jpg">
+                <a href="./pages/recipes/sushi.html" target="_blank" rel="noopener"> Sushi Recipe</a>
+            </pop-op>
+
+            <pop-op id="pop3">
+                <img class="pop-op-img" src="./images/steak.jpg">
+                <a href="./pages/recipes/steak.html" target="_blank" rel="noopener"> Steak Recipe</a>
+            </pop-op>
+            
+        </section>
+
         
     </body>
 </html>

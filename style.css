@@ -1,0 +1,45 @@
+/* *{outline: solid red;} */
+/* navigation / header */
+
+#nav-logo, nav, .nav-dropdown{
+    display: inline-block;
+} 
+
+#nav-logo{
+    height: 30px;
+    width: auto;
+}
+.nav-dropdown
+{    
+    box-sizing: border-box;
+    height:20px; 
+    width: auto;
+    text-align: center;
+    padding:  8px;
+    margin: 25px ;
+}
+nav {
+    text-align: center;
+}
+
+/* main body */
+
+.popular-today{
+    text-align: center;
+}
+
+.pop-op-img
+{
+    height: 200px;
+    width: auto;
+}
+
+pop-op {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+pop-op a{
+    display: block;
+    margin: 0 25px;
+}
