@@ -1,0 +1,92 @@
+/* head/nav */
+
+*{
+    outline: solid;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header
+{
+    border-bottom: 1px solid gray;
+    font-family: Verdana;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    padding: 10px;
+}
+
+.logo
+{   
+    margin-right: auto;
+    cursor: pointer;
+    height: 30px;
+    width: auto;
+}
+
+.nav-link li
+{
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-link li:hover{
+    text-decoration: underline solid orange;
+}
+
+/* main body */
+
+.most-popular{
+    display: box;
+    padding: 50px;
+    margin: 50px 0;
+}
+
+.most-popular h1{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+item-container{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+item{
+    display: block;
+    text-align: center;
+    cursor: pointer;
+
+    /* transition: transform .2s */
+} 
+ /* item:hover{
+    text-decoration: underline;
+    text-decoration: 3px underline solid orange;
+    transform: scale(1.1);
+ } */
+item img{
+    height: 300px;
+    width: auto;
+    display: block;
+    margin: 0 10px;
+}
+
+item food-name{
+    display: block;
+}
+
+item a{
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}

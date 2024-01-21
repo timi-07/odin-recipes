@@ -1,0 +1,15 @@
+                <div class="item">
+                    <img class="img" src="./images/lasagna.jpg">
+                    <!-- <a href="./pages/recipes/lasagna.html" target="_blank" rel="noopener"> Lasagna Recipe</a> -->
+                </div>
+
+                <div class="item">
+                    <img class="pop-op-img" src="./images/sushi.jpg">
+                    <!-- <a href="./pages/recipes/sushi.html" target="_blank" rel="noopener"> Sushi Recipe</a> -->
+                </div>
+
+                <div class="item">
+                    <img class="pop-op-img" src="./images/steak.jpg">
+                    <!-- <a href="./pages/recipes/steak.html" target="_blank" rel="noopener"> Steak Recipe</a> -->
+                </div>
+                

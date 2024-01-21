@@ -1,18 +1,27 @@
 /* *{outline: solid red;} */
 /* navigation / header */
 
-#nav-logo, nav, .nav-dropdown{
+header{
+    display:flex; 
+    justify-content: space-between;
+}
+/* .main-nav{
+    outline: solid gray;
+    display: flex;
+} */
+/* #nav-logo, nav, .nav-dropdown{ */
     display: inline-block;
-} 
+/* }  */
 
 #nav-logo{
     height: 30px;
     width: auto;
 }
-.nav-dropdown
+/* .nav-dropdown
 {    
     box-sizing: border-box;
-    height:20px; 
+    height:20px;
+
     width: auto;
     text-align: center;
     padding:  8px;
@@ -20,7 +29,7 @@
 }
 nav {
     text-align: center;
-}
+} */ */
 
 /* main body */
 
